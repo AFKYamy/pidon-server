@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pidon-server/static/css/main.8c1c0342.css",
-    "main.js": "/pidon-server/static/js/main.0641c42e.js",
+    "main.js": "/pidon-server/static/js/main.e4604523.js",
     "static/js/99.179e037a.chunk.js": "/pidon-server/static/js/99.179e037a.chunk.js",
     "static/media/slick.svg": "/pidon-server/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/pidon-server/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -9,11 +9,11 @@
     "static/media/slick.woff": "/pidon-server/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/pidon-server/index.html",
     "main.8c1c0342.css.map": "/pidon-server/static/css/main.8c1c0342.css.map",
-    "main.0641c42e.js.map": "/pidon-server/static/js/main.0641c42e.js.map",
+    "main.e4604523.js.map": "/pidon-server/static/js/main.e4604523.js.map",
     "99.179e037a.chunk.js.map": "/pidon-server/static/js/99.179e037a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c1c0342.css",
-    "static/js/main.0641c42e.js"
+    "static/js/main.e4604523.js"
   ]
 }
