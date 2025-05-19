@@ -7,7 +7,7 @@ export default function OnlinePlayer(props) {
           <p><strong>{props.last}</strong></p>
         </div>
         <div className="online-player__img">
-          <img src={props.img} alt="online player" />
+          <img src={process.env.PUBLIC_URL + props.img} alt="online player" />
         </div>
         <div className="online-player__name">
           <p><strong>{props.name}</strong></p>

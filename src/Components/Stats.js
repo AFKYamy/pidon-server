@@ -5,7 +5,7 @@ export default function Stats(props) {
       <div id={props.id} className="stats">
         <div className="stats__wrapper">
             <div className="stats__icon">
-                <img src={props.img} alt="status icon" />
+                <img src={process.env.PUBLIC_URL + props.img} alt="status icon" />
             </div>
             <div className="stats__name">
                 <h3>{props.name}</h3>

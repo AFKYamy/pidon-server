@@ -3,15 +3,15 @@ import { useState } from 'react';
 
 export const HpImages = [
     {
-        img: "/Images/smog.png",
+        img: process.env.PUBLIC_URL + "/Images/smog.png",
         alt: "Sm0g"
     },
     {
-        img: "/Images/gemtik.png",
+        img: process.env.PUBLIC_URL + "/Images/gemtik.png",
         alt: "Gemtik"
     },
     {
-        img: "/Images/devil.png",
+        img: process.env.PUBLIC_URL + "/Images/devil.png",
         alt: "Devil"
     }
 ];

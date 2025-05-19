@@ -17,7 +17,7 @@ export function Carousel({images}) {
             {images.map((image, index) => {
                 return (
                     <div className={index == current ? "carousel__card carousel__card--active" : "carousel__card"} key={index}>
-                        <img src={image.img} alt={image.alt} />
+                        <img src={process.env.PUBLIC_URL + image.img} alt={image.alt} />
                     </div>
                 )
             })}
