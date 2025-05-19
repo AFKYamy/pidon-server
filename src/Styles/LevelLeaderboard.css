@@ -1,0 +1,33 @@
+.level-leaderboard {
+    width: 100%;
+    height: 100%;
+    border: solid 1px var(--lighter-gray);
+    border-radius: 15px;
+    background: white;
+}
+
+.level-leaderboard__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.level-leaderboard span {
+    height: 1px;
+    width: 100%;
+    background-color: var(--lighter-gray);
+}
+
+.level-leaderboard h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: var(--dark-gray);
+}
+
+#level-leaderboard__btn {
+    margin-top: 1em;
+    margin-bottom: 1.3em;
+    width: 100%;
+}

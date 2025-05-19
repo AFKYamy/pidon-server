@@ -1,0 +1,52 @@
+.home {
+    position: relative;
+    z-index: 2;
+    border-radius: 15px;
+    margin-top: 2em;
+    height: 24em;
+    position: relative;
+}
+
+.home:before {
+    content: "";
+    background: var(--main-bg-color);
+    width: 40em;
+    height: 10em;
+    position: absolute;
+    z-index: -1;
+    top: -2em;
+    right: 15em;
+}
+
+.home__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.home__left {
+    width: 25%;
+    height: 100%;
+}
+
+.home__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 73.5%;
+}
+
+.home__stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#server__status p {
+    color: var(--green);
+}
+
+.home__online {
+    height: 72%;
+}

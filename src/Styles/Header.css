@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    height: 30em;
+    margin-top: 2.5em;
+    background: var(--purple);
+    color: white;
+    border-radius: 15px;
+}
+
+.header__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__title {
+    margin-bottom: 0.3em;
+    font-size: var(--font-7xl);
+}
+
+.header__info {
+    margin-bottom: 2.5em;
+}
+
+.header__image {
+    margin-right: 45em;
+    margin-top: -38em;
+}
+
+.header__image img {
+    width: 600px;
+    height: auto;
+    margin-top: 0em;
+    margin-left: auto;
+    margin-right: auto;
+}

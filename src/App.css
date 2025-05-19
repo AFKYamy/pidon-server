@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Color */
+  --main-bg-color: #f7f6fb;
+  --black: #313335;
+  --darker-gray: #1d1d1d;
+  --dark-gray: #3a3a3a;
+  --gray: #7f8690;
+  --light-gray: #616161;
+  --lighter-gray: #ececec;
+  --lightest-gray: #f1f1f1;
+  --dark-purple: #2c016c;
+  --purple: #5f22d9;
+  --light-purple: #ad72fe;
+  --green: #06cb59;
+  --light-green: #a4edc3;
+  --red: #ff5252;
+  --light-red: #ff7b7b;
+  --cyan: #71e1e2;
+  --dark-cyan: #58adc7;
+
+  /* Font sizes */
+  --font-md: 1rem;
+  --font-lg: 1.125rem;
+  --font-xl: 1.25rem;
+  --font-2xl: 1.5rem;
+  --font-3xl: 1.75rem;
+  --font-4xl: 2rem;
+  --font-5xl: 2.25rem;
+  --font-6xl: 2.5rem;
+  --font-7xl: 3rem;
+  --font-8xl: 3.5rem;
+  --font-9xl: 4rem;
+  --font-10xl: 4.5rem;
+  --font-11xl: 5rem;
+  --font-12xl: 6rem;
+}
+
+body {
+  margin: 3em 0;
+  background-color: var(--main-bg-color);
+  font-family: "Poppins", serif;
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style-type: none;
+  color: var(--black);
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  /*padding-left: 0.5rem;
+  padding-right: 0.5rem;*/
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+}
